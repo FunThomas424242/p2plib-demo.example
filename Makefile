@@ -11,7 +11,7 @@ all: test build
 
 
 build:
-				$(GOBUILD) -o $(BINARY_NAME) -v github.com/funthomas424242/p2plib-demo.example/src/cmd/
+				$(GOBUILD) -o $(BINARY_NAME) -v 
 
 test:
 #				$(GOTEST) -v ./...

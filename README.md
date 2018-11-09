@@ -1,6 +1,13 @@
 # p2plib-demo.example
 Einstiegsbeispiel in die Benutzung von p2plib
 
+## Notizen zur p2plib 
+Beispiel Implementierung
+https://gist.github.com/whyrusleeping/169a28cffe1aedd4419d80aa62d361aa
+
+NAT Problematik
+https://github.com/libp2p/go-libp2p/issues/375
+
 
 ## Notizen zum Projekterstellung
 

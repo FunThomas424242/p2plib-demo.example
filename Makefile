@@ -7,7 +7,7 @@ GOGET=$(GOCMD) get
 BINARY_NAME=p2plib-demo
 BINARY_UNIX=$(BINARY_NAME)_unix
 
-all: test build
+all: test build deps
 
 
 build:
@@ -20,9 +20,11 @@ clean:
 				$(GOCLEAN)
 				rm -f $(BINARY_NAME)
 				rm -f $(BINARY_UNIX)
+
 run:
 				$(GOBUILD) -o $(BINARY_NAME) -v ./...
 				./$(BINARY_NAME)
+
 deps:
 		$(GOGET) github.com/ipfs/go-cid
 		$(GOGET) github.com/ipfs/go-datastore
@@ -30,7 +32,7 @@ deps:
 		$(GOGET) github.com/libp2p/go-floodsub
 		$(GOGET) github.com/libp2p/go-libp2p
 		$(GOGET) github.com/libp2p/go-libp2p-kad-dht
-		$(GOGET) github.com/libp2p/go-libp2p-peerstore"
+		$(GOGET) github.com/libp2p/go-libp2p-peerstore
 		$(GOGET) github.com/multiformats/go-multihash
 
 

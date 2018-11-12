@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/FunThomas424242/p2plib-demo.example.svg?branch=master)](https://travis-ci.org/FunThomas424242/p2plib-demo.example)
 # p2plib-demo.example
 Einstiegsbeispiel in die Benutzung von p2plib
 

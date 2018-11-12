@@ -23,9 +23,15 @@ clean:
 run:
 				$(GOBUILD) -o $(BINARY_NAME) -v ./...
 				./$(BINARY_NAME)
-#deps:
-#        $(GOGET) github.com/markbates/goth
-#        $(GOGET) github.com/markbates/pop
+deps:
+        $(GOGET) github.com/ipfs/go-cid
+        $(GOGET) github.com/ipfs/go-datastore
+        $(GOGET) github.com/ipfs/go-ipfs-addr
+        $(GOGET) github.com/libp2p/go-floodsub
+        $(GOGET) github.com/libp2p/go-libp2p
+        $(GOGET) github.com/libp2p/go-libp2p-kad-dht
+        $(GOGET) github.com/libp2p/go-libp2p-peerstore"
+        $(GOGET) github.com/multiformats/go-multihash
 
 
 # Cross compilation

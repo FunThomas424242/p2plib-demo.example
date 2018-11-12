@@ -11,6 +11,8 @@ https://github.com/libp2p/go-libp2p/issues/375
 
 ## Notizen zum Projekterstellung
 
+http://www.ijon.de/comp/tutorials/makefile.html
+
 https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2
 
 https://github.com/golang-standards/project-layout

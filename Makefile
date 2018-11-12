@@ -7,14 +7,14 @@ GOGET=$(GOCMD) get -v -t
 BINARY_NAME=p2plib-demo
 BINARY_UNIX=$(BINARY_NAME)_unix
 
-all: test build deps
+all: build
 
 
 build:
 	$(GOBUILD) -o $(BINARY_NAME) -v ./...
 
-test:
-	$(GOTEST) -v ./...
+# test:
+#	$(GOTEST) -v ./...
 
 clean:
 	$(GOCLEAN)

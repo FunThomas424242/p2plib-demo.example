@@ -3,7 +3,7 @@ GOCMD=go
 GOBUILD=$(GOCMD) build
 GOCLEAN=$(GOCMD) clean
 GOTEST=$(GOCMD) test
-GOGET=$(GOCMD) get
+GOGET=$(GOCMD) get -v -t
 BINARY_NAME=p2plib-demo
 BINARY_UNIX=$(BINARY_NAME)_unix
 

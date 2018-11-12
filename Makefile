@@ -7,7 +7,7 @@ GOGET=$(GOCMD) get
 BINARY_NAME=p2plib-demo
 BINARY_UNIX=$(BINARY_NAME)_unix
 
-all: test build
+all: test build deps
 
 
 build:
